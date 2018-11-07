@@ -59,10 +59,10 @@ public class DataSourceConfig {
      * 配置@Transactional注解事物
      * @return
      */
-/*    @Bean
+    @Bean
     public PlatformTransactionManager transactionManager() {
         return new DataSourceTransactionManager(dynamicDataSource());
-    }*/
+    }
 
 
 }
